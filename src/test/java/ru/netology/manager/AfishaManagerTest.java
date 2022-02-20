@@ -11,17 +11,17 @@ class AfishaManagerTest {
     AfishaManager managerCustom;
 
 
-    private Afisha first = new Afisha(1, "Inception", "fantastic");
-    private Afisha second = new Afisha(2, "Titanic", "drama");
-    private Afisha third = new Afisha(3, "Leon", "thriller");
-    private Afisha fourth = new Afisha(4, "Shindler's List", "biography");
-    private Afisha fifth = new Afisha(5, "Godfather", "criminal");
-    private Afisha sixth = new Afisha(6, "Pianist", "war");
-    private Afisha seventh = new Afisha(7, "Lord of the Rings", "fantasy");
-    private Afisha eighth = new Afisha(8, "Shutter Island", "detective");
-    private Afisha ninth = new Afisha(9, "Some Like it Hot", "comedy");
-    private Afisha tenth = new Afisha(10, "12 monkeys", "fantastic");
-    private Afisha eleventh = new Afisha(11, "Interstellar", "fantastic");
+    private Afisha first = new Afisha(1, "Bloodshot", "action movie");
+    private Afisha second = new Afisha(2, "Forward", "cartoon");
+    private Afisha third = new Afisha(3, "Hotel Belgrade", "comedy");
+    private Afisha fourth = new Afisha(4, "Gentlemen", "action movie");
+    private Afisha fifth = new Afisha(5, "Invisible Man", "horror");
+    private Afisha sixth = new Afisha(6, "Trolls. World tour", "cartoon");
+    private Afisha seventh = new Afisha(7, "Number one", "comedy");
+    private Afisha eighth = new Afisha(8, "lion king", "cartoon");
+    private Afisha ninth = new Afisha(9, "Hannibal Lecter", "horror");
+    private Afisha tenth = new Afisha(10, "The hills have eyes", "horror");
+    private Afisha eleventh = new Afisha(11, "The hills have eyes", "horror");
 
     @BeforeEach
     void setUp() {
