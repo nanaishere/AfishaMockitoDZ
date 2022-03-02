@@ -22,16 +22,20 @@ public class PurchaseManager {
         items = tmp;
     }
 
-    public PurchaseItem[] getAll() {
-        PurchaseItem[] result = new PurchaseItem[items.length];
-        // перебираем массив в прямом порядке
-        // но кладём в результаты в обратном
-        for (int i = 0; i < result.length; i++) {
-            int index = items.length - i - 1;
-            result[i] = items[index];
-        }
-        return result;
+    public PurchaseItem[] findAll() {
+        return posters;
     }
+
+    public Film[] findLast() {
+        int resultLength = Math.min(filmsLimit, posters.length);
+        PurchaseItem[] result = new PurchaseItem[resultLength];
+        for (int i = 0; i < result.length; i++) {
+            int index = posters.length - i - 1;
+            result[i] = posters[index];
+        }
+        return poster;
+    }
+}
 
     // наивная реализация
     public void removeById(int id) {
